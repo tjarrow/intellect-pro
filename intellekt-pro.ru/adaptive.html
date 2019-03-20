@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum|Oswald|Roboto+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/adaptive.css">
+  <title>Document</title>
+</head>
+<body>
+  <section class="section-block form-bg">
+    <div class="l-wrapper">
+      <form action="" class="c-form" name="service-form">
+        <div class="c-form__heading">Расчёт стоимости монтажа камер видеонаблюдения</div>
+        <div class="l-service-wrapper">
+          <div class="c-form__block">
+            <div class="l-wrapper--col">
+              <span class="c-form__input-name">Тип объекта</span>
+                <div class="c-form__radio-btn-block">
+                  <label class="c-form__input--label" for="c-form__radio-btn--default">
+                    <input name="living-place" class="c-form__radio-btn--default" type="radio" value="Жилой" >
+                    <span class="c-form__radio-btn"></span>
+                    Жилой
+                  </label>
+                  <input type="radio" name="slider" class="c-form__slider-radio-btn" id="sliderSwitch">
+                  <label class="c-form__input--label c-form__slider " for="">
+                    <input name="untenantable-place" class="c-form__radio-btn--default" type="radio" value="Нежилой" >
+                    <span class="c-form__radio-btn"></span>
+                    <span class="c-form__slider-circle"></span>
+                    Нежилой
+                  </label>
+                </div>
+            </div>
+            <div class="l-wrapper--col">
+              <label for="c-form__input--square" class="c-form__input-name">Площадь</label>
+              <input class="c-form__input--square" type="number" min="0" placeholder="0">
+            </div>
+            <div class="l-wrapper--col l-input-wrap--sm">
+              <label for="c-form__input-file--default" class="c-form__input-name">Схема объекта</label>
+
+                <input type="file" class="c-form__input-file--default">
+                <div class="c-form__input--file">
+                  <span>Выберите файл</span>
+                  <div>
+                    <i></i>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+            <div class="c-form__block">
+              <div class="l-wrapper--col l-input-wrap--sm">
+                <label for="c-form__input--name" class="c-form__input-name">Ваше имя*</label>
+                <input type="text" class="c-form__input--name" placeholder="Имя">
+              </div>
+
+              <div class="l-wrapper--col l-input-wrap--sm">
+                <label for="c-form__input--phone" class="c-form__input-name">Телефон*</label>
+                <input type="text" placeholder="+7 (___)___-__-__" class="c-form__input--phone">
+              </div>
+
+            </div>
+          </div>
+            <div class="c-form__heading--sm">Для уточнения подробностей проекта наш менеджер свяжется с Вами по телефону</div>
+            <button type="submit" class="c-form__submit">Получить расчёт</button>
+            <span class="c-form__info">Нажимая "Получить расчёт", Вы соглашаетесь с <a href="">обработкой персональных данных</a></span>
+      </form>
+    </div>
+  </section>
+  <section class="section-block how-we-work-bg">
+  <div class="l-wrapper">
+    <div class="c-service__heading--white">Как мы работаем</div>
+      <div class="c-service__how-we-work">
+        <div class="c-service__how-we-work-item">
+          <span>1</span>
+          <p>Обследование объекта и <br> формирование технического задания</p>
+          <img src="" alt="" class="icon-contract">
+        </div>
+        <div class="c-service__how-we-work-item">
+          <span>2</span>
+          <p>Составление и согласование спецификации оборудования с заказчиком</p>
+          <img src="" alt="" class="icon-handshake">
+        </div>
+        <div class="c-service__how-we-work-item">
+          <span>3</span>
+          <p>Заключение договора <br> и поставка оборудования</p>
+          <img src="" alt="" class="icon-package">
+        </div>
+        <div class="c-service__how-we-work-item">
+          <span>4</span>
+          <p>Прокладка кабельных трасс <br> и монтаж оборудования</p>
+          <img src="" alt="" class="icon-cable">
+        </div>
+        <div class="c-service__how-we-work-item">
+          <span>5</span>
+          <p>Настройка <br> и пусконаладочные работы</p>
+          <img src="" alt="" class="icon-settings">
+          <div class="c-service__checked-icon"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="section-block advantages-bg">
+    <div class="l-wrapper">
+        <div class="c-service__advantages">
+          <h1 class="c-service__heading--white">Преимущества работы с нами</h1>
+          <div class="l-service-wrapper wrap">
+            <div class="c-service__advantages-item warehouse-bg">
+              <h3 class="c-service__heading--white--sm">Собственный склад и единый подрядчик</h3>
+              <p>В наличии всегда имеется необходимое оборудование.<br>
+                 Комплексное предоставление услуг упрощает
+                 процесс выполнения проекта.</p>
+            </div>
+            <div class="c-service__advantages-item docs-bg">
+              <h3 class="c-service__heading--white--sm">Договор и сопутствующая документация</h3>
+                <p>На все работы заключается договор с чёткими сроками <br> выполнения. Бесплатное составление
+                  предпроектной документации.</p>
+            </div>
+            <div class="c-service__advantages-item shield-bg">
+              <h3 class="c-service__heading--white--sm">Гарантия и поддержка</h3>
+              <p>Гарантия на все монтажные работы - 5 лет. Во время <br> эксплуатации нашего оборудования,
+                мы предоставляем бесплатную консультацию и постгарантийную поддержку.</p>
+            </div>
+            <div class="c-service__advantages-item mechanic-bg">
+              <h3 class="c-service__heading--white--sm">Опыт работы</h3>
+              <p>Занимаемся монтажом систем видеонаблюдения более 6 лет, успешно оборудовали более 700 объектов.
+                Имеем лицензии и сертификаты на все предоставляемые услуги.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="libs/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
